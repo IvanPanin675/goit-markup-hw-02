@@ -19,24 +19,24 @@ body {
     
 }
 
-a {
+.aaa {
     text-decoration: none;
     color: #757575;
 }
 
-li {
+.llli {
     list-style-type: none;
 }
 
-h1,h2,h3,h4 {
-    color:var(--headers-text-color);
+.h {
+    color: var(--headers-text-color);
 }
 
 
 /*header*/
 
-.headr {
-    display: flex; ;
+.shapka {
+    display: flex;
 }
 
 .logo {
@@ -46,10 +46,6 @@ h1,h2,h3,h4 {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    margin-left: 215px;
-    margin-top: 24px;
-    margin-bottom: 25px;
-    margin-right: 93px;
 }
 
 .logo .black {
@@ -61,6 +57,29 @@ h1,h2,h3,h4 {
     color: var(--Logo-bt-link);
     line-height: 24px;
 }
+
+.h.hs {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.peculiarities {
+    display: flex;
+    padding: 94px 215px;
+}
+
+.text-li {
+     height: 75;
+    width: 270;
+    margin-right: 50;
+}
+.text {
+   
+}
+
 
 /*main*/
     /*hero*/
@@ -74,6 +93,28 @@ h1,h2,h3,h4 {
     color: var(--bg-color);
 }
 
+.btn {
+    color: var(--bg-color);
+    background-color: var(--Logo-bt-link);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+        /* identical to box height, or 188% */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+       
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #188CE8;
+}
+
+
+
 /* footer*/
 .logo .white {
     color:var(--bg-color)
@@ -81,4 +122,39 @@ h1,h2,h3,h4 {
 
 .footer {
     background-color: var(--footer-bg);
+}
+
+/*для портфолiо сторiнки*/
+
+.btn.port {
+    color: var(--headers-text-color);
+    background-color: var(--sec-bg-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+
+
+}
+
+.btn.port:hover,
+.btn.port:focus {
+    background-color: var(--Logo-bt-link);
+    color: var(--bg-color);
+}
+
+.h.portfolio {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+}
+
+.flexim {
+    flex-wrap: wrap;
 }
