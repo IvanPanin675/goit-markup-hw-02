@@ -11,76 +11,54 @@
 body {
     color:var(--primary-text-color);
     background-color: var(--bg-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.4;
     
-}
-
-.aaa {
-    text-decoration: none;
-    color: #757575;
-}
-
-
-
-.h {
-    color: var(--headers-text-color);
 }
 
 
 /*header*/
 
-.shapka {
-    display: flex;
-    list-style-type: none;
+.link {
+    text-decoration: none;
 }
 
 .logo {
     color: var(--Logo-bt-link);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    text-decoration: none;
+    line-height: 1.2;
+    
 }
 
 .logo .black {
     color: black;
 }
-.link {
-    text-decoration: none;
-    color: #757575;
-}
 
-.link:hover, 
-.link:focus {
-    color: var(--Logo-bt-link);
-    line-height: 24px;
-}
-
-.link:active {
-    color: var(--Logo-bt-link);
-    line-height: 24px;
-}
-.h.hs {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.peculiarities {
+.list {
     list-style-type: none;
-    display: flex;
-    padding: 94px 215px;
+}
+.link.navi {
+    color:var(--headers-text-color)
+}
+ 
+.link.navi:hover,
+.link.navi:focus {
+    color: var(--Logo-bt-link);
+}
+.link.navi:active {
+    color: var(--Logo-bt-link);
+}
+.link.kont {
+    color: var(--primary-text-color);
 }
 
-
+.link.kont:hover,
+.link.kont:focus {
+    color: var(--Logo-bt-link);
+}
 
 
 /*main*/
@@ -88,7 +66,7 @@ body {
 .hero {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -100,13 +78,8 @@ body {
     background-color: var(--Logo-bt-link);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-        /* identical to box height, or 188% */
-    
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
        
 }
 
@@ -115,30 +88,53 @@ body {
     background-color: #188CE8;
 }
 
-.whatwedo {
-    display: flex;
-    list-style-type: none;
-    padding: 50px 215px 94px 215px;
+.osobenost {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    color: var(--headers-text-color);
 }
-.whatwedo .foto {
-    margin-right: 50px;
+ 
+.osobenost-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+}
+
+.podzagolovok {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--headers-text-color);
 }
 
 .team {
-    display: flex;
-    list-style-type: none;
-    padding: 50px 215px 94px 215px;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--headers-text-color);
 }
 
-.team .foto {
-    margin-right: 50px;
+.prof {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 /* footer*/
 
 .footer {
     background-color: var(--footer-bg);
-    padding-left: 215px;
+
 }
 
 .logo .white {
@@ -146,17 +142,25 @@ body {
 }
 
 .addr {
-    list-style-type: none;
+    font-style: normal;
+    color:#ffffff;
 }
+
+.link.addr {
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+
 
 /*для портфолiо сторiнки*/
 
 .btn.port {
     color: var(--headers-text-color);
     background-color: var(--sec-bg-color);
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 1.6;
         /* identical to box height, or 162% */
     
         text-align: center;
@@ -171,15 +175,22 @@ body {
     color: var(--bg-color);
 }
 
-.h.portfolio {
+.saits {
     font-weight: 700;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 2;
         /* identical to box height, or 200% */
     
         letter-spacing: 0.06em;
+        color: var(--headers-text-color);
 }
 
-.flexim {
-    flex-wrap: wrap;
+.link .text-sait {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
