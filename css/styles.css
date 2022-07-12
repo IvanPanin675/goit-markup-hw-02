@@ -41,7 +41,8 @@ body {
     list-style-type: none;
 }
 .link.navi {
-    color:var(--headers-text-color)
+    color:var(--headers-text-color);
+    font-weight: 500;
 }
  
 .link.navi:hover,
@@ -53,6 +54,7 @@ body {
 }
 .link.kont {
     color: var(--primary-text-color);
+    font-weight: 500;
 }
 
 .link.kont:hover,
@@ -80,7 +82,7 @@ body {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-       
+    font-family: inherit;   
 }
 
 .btn:hover,
@@ -123,7 +125,7 @@ body {
 }
 
 .prof {
-    font-weight: 400;
+    
         font-size: 16px;
         line-height: 1.2;
         text-align: center;
@@ -144,6 +146,9 @@ body {
 .addr {
     font-style: normal;
     color:#ffffff;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .link.addr {
@@ -157,7 +162,7 @@ body {
 .btn.port {
     color: var(--headers-text-color);
     background-color: var(--sec-bg-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
@@ -186,7 +191,6 @@ body {
 }
 
 .link .text-sait {
-font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     /* identical to box height, or 188% */
